@@ -54,6 +54,8 @@
 #define BOARD_RAMPS_PLUS_EEF          1033  // RAMPS Plus 3DYMY (Power outputs: Hotend0, Hotend1, Fan)
 #define BOARD_RAMPS_PLUS_SF           1034  // RAMPS Plus 3DYMY (Power outputs: Spindle, Controller Fan)
 
+#define BOARD_SMART_LASER_MINI 1050
+
 //
 // RAMPS Derivatives - ATmega1280, ATmega2560
 //

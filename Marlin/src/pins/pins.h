@@ -135,6 +135,8 @@
   #include "ramps/pins_RAMPS.h"                 // ATmega2560, ATmega1280                 env:mega2560 env:mega1280
 #elif MB(RAMPS_PLUS_EFB, RAMPS_PLUS_EEB, RAMPS_PLUS_EFF, RAMPS_PLUS_EEF, RAMPS_PLUS_SF)
   #include "ramps/pins_RAMPS_PLUS.h"            // ATmega2560, ATmega1280                 env:mega2560 env:mega1280
+#elif MB(SMART_LASER_MINI)
+  #include "ramps/pins_SmartLaserMini.h"          // ATmega2560                             env:mega2560
 
 //
 // RAMPS Derivatives - ATmega1280, ATmega2560
